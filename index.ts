@@ -1,10 +1,10 @@
-import express from 'express';
+import express = require('express');
 
 // Create a new express application instance
-const app: express.Application = express();
+const app: any = express();
 
 app.use(express.static("www"));
 
-app.get("/users/:uname", (req, res) => res.end("Hello " + req.params.uname));
+app.get("/users/:uname", (req: any, res: any) => res.end("Hello " + req.params.uname));
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
