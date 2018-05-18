@@ -1,29 +1,22 @@
 {
-  "name": "tstest",
+  "name": "tsexpress",
   "version": "1.0.0",
-  "description": "typescript that prompts for input",
-  "main": "index.ts",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "ts-node index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhildred/tstest.git"
+    "url": "git+https://github.com/rhildred/tsexpress.git"
   },
-  "keywords": [
-    "ts-node",
-    "typescript"
-  ],
-  "author": "Rich Hildred",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rhildred/tstest/issues"
+    "url": "https://github.com/rhildred/tsexpress/issues"
   },
-  "homepage": "https://github.com/rhildred/tstest#readme",
-  "dependencies": {
-    "@types/readline-sync": "^1.4.3",
-    "readline-sync": "^1.4.9"
-  },
+  "homepage": "https://github.com/rhildred/tsexpress#readme",
   "devDependencies": {
     "ts-node": "^6.0.3",
     "typescript": "^2.8.3"
