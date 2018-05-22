@@ -22,7 +22,7 @@
         var app = angular.module("myApp", []);
         app.controller("myCtrl", function ($scope, $http) {
             $scope.messages = [];
-            $scope.sender = "you";
+            $scope.sender = "you@" + Math.ceil(Math.random() * 1000);
             $scope.addMessage = function () {
                 var newMessage = {
                     Body: $scope.newMessageText,
