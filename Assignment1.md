@@ -6,7 +6,7 @@ Marking
 |Element|Out Of|
 |---|---|
 |get a game or choose your own adventure in typescript| 50|
-|multiplayer - each person has their own game| 10|
+|multiplayer - each person plays their own game against the bot.| 10|
 |story elements or states|1 each up to 20|
 |spelling and grammar|10|
 |on time|10|
