@@ -12,3 +12,5 @@ Marking
 |on time|10|
 
 The campfire project is due as a zip of your project in the assignments folder on June 3rd by 11:59 pm.
+
+Note: Friday June the 1st will be a work period for you to get help with what you have already tried on your own.
